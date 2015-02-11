@@ -1,0 +1,11 @@
+#+TITLE: Notes for first iteration of multiples
+
+1st solution very simply inefficient solution to calculate answer and get
+familiar with bash math
+
+** Points to note
+
+- bash arithmetic is carried out using $(( ))
+- -o in a test allows us to or
+- there must be a space between the brackets and the test
+- seq seems to be linux specific (not on bsd's so the script is not portable)
