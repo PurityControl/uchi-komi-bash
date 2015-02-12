@@ -1,0 +1,14 @@
+#+TITLE: Notes for first iteration of multiples
+
+Trying to use bash primitives to solve the problem.
+
+** Points to note
+
+- bash arithmetic is carried out using $(( ))
+- bash arrays are set using ()
+  - array=()
+  - array+=($val)
+- bash arrays are accessed using ${array[1]}
+  - the whole array can be accessed using ${array[@]}jj
+- there must be a space between the brackets and the test
+- assignment doesn't like spaces
