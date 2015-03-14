@@ -1,0 +1,27 @@
+#+TITLE: Notes for first iteration of Largest Prime Factor
+
+Using bash utilities to see how many different ways this can
+be solved rather than trying to turn bash into a generic
+language lke ruby or python.
+
+** points to note
+
+- factor lists out the prime factors of the number you want
+  to factor
+- factor outputs the number to factor and a colon before it
+  gives a space delimited list of factors
+- cut splits on the colon delimeter and removes the number
+  to factor from the results
+- tr converts spaces into new lines so we have a solution
+  consisting of one number per line
+- sort reverse sorts (-r) so bigger numbers are at the top
+  and uses a numeric sort criteria (-g) instead of a dictionary
+  sort and removes unique (-u) values
+- sed use 1p to print out only the first line of the result
+  which is the answer
+
+** Retrospective
+
+Love the way that this turned out and the use of bash utilities
+like sort and cut that allowed us to hone in on a result once
+we had the list of factors
