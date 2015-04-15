@@ -1,0 +1,20 @@
+#+TITLE: Notes for Largest Palindrome Product
+
+Initial idea was to pipe string of product through to rev command
+and compare the two.
+
+** Retrospective
+
+Couldn't pipe result to external command as the spawning of a new
+process for every iteration made the solution unworkable from a
+performance standpoint.
+
+Had to modify solution to do the reverse calculation within bash
+to get satisfactory speed ~30 seconds to get the result.
+This contrasts to ~ 160ms in ruby.
+
+Caught out by global variables declared in iteration (for loops)
+using $i twice in two separate for loops created an inifinite loop.
+
+Would like to see a version of this implemented using a standard
+unix tool such as bc and/or awk to see how it performed.
