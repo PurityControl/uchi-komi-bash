@@ -1,0 +1,11 @@
+#+TITLE: Notes for Smallest Multiple
+
+just use loops, bash math and modulo
+
+** Retrospective
+
+very slow (unuseable ~30 min) using bash math, but helpful to exercise skills
+of how to do bash math, assignment etc.
+
+would be interesting to see how fast a second iteration would be if
+maths part was handed off to bc
