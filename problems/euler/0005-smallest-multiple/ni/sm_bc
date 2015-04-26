@@ -1,0 +1,20 @@
+#bc functions
+
+define common_multiple(multiple, limit) {
+	for (i=1; i<limit; i++) {
+		if (multiple % i != 0) {
+			return 0
+		}
+	}
+	return 1
+}
+
+define smallest_multiple(limit) {
+	increment = limit
+	for (j = limit; 1; j += increment) {
+		if (common_multiple(j, limit)) {
+			return j
+		}
+	}
+}
+
