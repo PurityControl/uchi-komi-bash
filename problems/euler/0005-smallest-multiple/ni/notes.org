@@ -1,0 +1,13 @@
+#+TITLE: Notes for Smallest Multiple
+
+used bc script this time called from bash
+
+** Retrospective
+
+great improvement of speed on pure bash implementation.
+Now running at ~ 2.5mins but still slower than programming languages.
+
+Nice way to delegate maths intensive processes in bash.
+
+variables in for loops are global in bc so be careful not to use
+the same variable in different loops (even in different functions).
