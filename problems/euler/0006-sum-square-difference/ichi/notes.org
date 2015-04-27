@@ -1,0 +1,8 @@
+#+TITLE: Notes for Sum Square Difference
+
+just use loops and bash math
+
+** Retrospective
+simple and quick both results accumulated in a loop
+
+
