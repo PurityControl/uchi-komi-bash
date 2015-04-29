@@ -1,0 +1,10 @@
+#+TITLE: Notes for 10001st Prime
+
+idea to use gnu factors that return itself as the factor
+
+** Retrospective
+
+another slow implementation but not too bad for the shell.
+
+
+
