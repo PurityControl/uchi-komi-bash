@@ -9,6 +9,7 @@ Trying to use bash primitives to solve the problem.
   - array=()
   - array+=($val)
 - bash arrays are accessed using ${array[1]}
-  - the whole array can be accessed using ${array[@]}jj
+  - the whole array can be accessed using ${array[@]}
+  - the length of the array can be calculated using ${#array[@]}
 - there must be a space between the brackets and the test
 - assignment doesn't like spaces
